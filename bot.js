@@ -22,5 +22,11 @@ require("./util/attachLogger.js")(client);
 require("./util/loadAssets.js")(client);
 
 client.util = {
-
+  isStaff: require("./util/isStaff.js")
 };
+
+require("./util/loadEvents.js")(client);
+
+client.login(client.config.token);
+
+process.on("unhandledRejection", reason => client.error(reason));

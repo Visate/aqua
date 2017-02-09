@@ -6,6 +6,6 @@ module.exports = client => {
   client.on("reconnect", () => reqEvent("reconnect")(client));
   client.on("message", reqEvent("message"));
   client.on("voiceStateUpdate", reqEvent("voiceStateUpdate"));
-  client.on("error", reqEvent("error"));
-  client.on("warn", reqEvent("warn"));
+  client.on("error", client.error);
+  client.on("warn", client.warn);
 };

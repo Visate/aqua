@@ -1,5 +1,6 @@
 module.exports = m => {
   const permissions = m.permissions.serialize();
+  
   return (
     permissions.KICK_MEMBERS ||
     permissions.BAN_MEMBERS ||
