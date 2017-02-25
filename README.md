@@ -1,6 +1,5 @@
-Aqua, A Discord Bot
+Aqua, A Discord Bot Skeleton
 ===================
 
-This bot is a replacement for Ruby on servers that are not a member of the ~Nyaa network.
-
-This will use the same bot commands framework and use many of the commands, just devoid of the Nyaa network functions.
+This is a skeleton for a bot mainly used for bots that are a member of the ~Nyaa network.
+It has a bot command framework and event framework in order to make it easy to modify the bot.
