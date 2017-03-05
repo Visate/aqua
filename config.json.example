@@ -1,0 +1,5 @@
+{
+  "prefix": "prefix here",
+  "token": "token goes here",
+  "logLocation": "log folder goes here"
+}
